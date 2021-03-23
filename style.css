@@ -1,0 +1,142 @@
+html, body {
+  background: #E8E8E8; /* background of webpage */
+  font-family: 'Candara', helvetica, arial, sans-serif;
+  font-size: 16px;
+  color: #999999;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: auto;
+  color: #303030;
+  padding: 5px 0px 20px 0px;
+  display: block;
+  width: 1200px;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 5px;
+  margin: auto;
+  display: block;
+  width: 1200px;
+  color: #0033CC;
+}
+
+h2 {
+  border-top: 1px solid #989898;
+  padding: 5px;
+  margin: auto;
+  display: block;
+  width: 1200px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: #688CFF;
+  line-height: 1.4em;
+}
+
+h3 {
+  margin: auto;
+  display: block;
+  width: 1200px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: #688CFF;
+  line-height: 1.4em;
+}
+
+h4 {
+  margin: auto;
+  display: block;
+  width: 1200px;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  color: #688CFF;
+  line-height: 1.4em;
+}
+
+ul {
+  column-count: 3;
+  list-style-type: circle; /*!-- can use square */
+  padding: 10px;
+  color: #303030; /* changes text colour */
+  margin: auto;
+  width: 1200px;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+li {
+  margin: 5px;
+}
+.profile {
+  border-radius: 50%;
+  max-width: 40%;
+  height: auto;
+  margin-top: 20px;
+  float: left;
+}
+
+.snapshot {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileImage {
+  position: relative;
+  float: right;
+  max-width: 20%;
+}
+
+
+.bigFive {
+    max-width: 25%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learningStyles {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionContent {
+padding: 5px;
+margin: auto;
+display: block;
+width: 1200px;
+
+}
+
+
+.sectionTitle h1 {
+  padding: 10px 5px;
+  margin: auto;
+  display: block;
+  width: 1200px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+
+}
+
+
+
+.headerInformation ul {
+  list-style-type: square; /*!-- can use square */
+  padding: 20;
+  color: #000000;
+  margin: auto;
+}
