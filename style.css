@@ -1,3 +1,4 @@
+
 html, body {
   background: #E8E8E8; /* background of webpage */
   font-family: 'Candara', helvetica, arial, sans-serif;
@@ -5,6 +6,23 @@ html, body {
   color: #999999;
 }
 
+/* ---------------------------------- HEADER -------------------------------- */
+
+.headerInformation ul {
+  column-count: 3;
+  list-style-type: square;
+  padding: 20;
+  color: #000000;
+  margin: auto;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.headerInformation li {
+    margin: 5px;
+}
+
+/* ---------------------------------- MAIN -------------------------------- */
 p {
   font-size: 1em;
   line-height: 1.4em;
@@ -56,7 +74,9 @@ h4 {
   line-height: 1.4em;
 }
 
-ul {
+/* ---------------------------------- MAIN LISTS -------------------------------- */
+
+.personalinfo ul {
   column-count: 3;
   list-style-type: circle; /*!-- can use square */
   padding: 10px;
@@ -67,9 +87,12 @@ ul {
   line-height: 1.4em;
 }
 
-li {
+.personalinfo li {
   margin: 5px;
 }
+
+/* ------------------------- PROFILE CONTENT: Personality Profile and Result Images ----------------------- */
+
 .profile {
   border-radius: 50%;
   max-width: 40%;
@@ -94,6 +117,12 @@ li {
 }
 
 
+.profileImage img{
+
+  position: relative;
+
+}
+
 .bigFive {
     max-width: 25%;
     height: auto;
@@ -104,7 +133,7 @@ li {
 }
 
 .learningStyles {
-    max-width: 50%;
+    max-width: 80%;/** take to 100% if get pages up and running **/
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -112,6 +141,28 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+.learningStylesTwo {
+    max-width: 80%;/** take to 100% if get pages up and running **/
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personalities {
+   max-width: 80%; /** take to 100% if get pages up and running **/
+   height: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* ---------------------------------- SECTION CONTENT: Ideal Jobs/Project Idea -------------------------------- */
 
 .sectionContent {
 padding: 5px;
@@ -130,13 +181,4 @@ width: 1200px;
   text-decoration-line: underline;
   text-decoration-style: solid;
 
-}
-
-
-
-.headerInformation ul {
-  list-style-type: square; /*!-- can use square */
-  padding: 20;
-  color: #000000;
-  margin: auto;
 }
