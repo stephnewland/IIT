@@ -4,45 +4,59 @@
   <head>
     <title> ePortfolio </title>
     <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-  <body>
-    <div id="wholeContainer">
+  <header>
+    <div class="navContainer">
+    <div id="nav">
+      <ul>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Personality Profile</a>
+          <div class="dropdown-content">
+            <a href="personalityprofile.html"> Personality Profile </a>
+          </div>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Ideal Job</a>
+            <div class="dropdown-content">
+              <a href="idealjob.html"> Ideal Job </a>
+              <a href="deloitte.html"> Deloitte Job Listing </a>
+          </div>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Project Idea</a>
+            <div class="dropdown-content">
+              <a href="projectidea.html"> Project Idea </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </header>
 
-      <header>
-        <div class="profileImage">
+<body>
+    <aside>
+    <div class="container">
+      <div class="profileImage">
           <img class="profile" src="face.jpg" alt="Profile photo of Steph Newland">
-        </div>
+    </div>
+    </aside>
 
-        <nav>
-          <ul>
-            <li> IDEAL JOB </li>
-              <li> <a href="idealjob.html" class="nav"> Ideal Job </a> </li>
-            <li> PERSONALITY PROFILE </li>
-              <li> <a href="personalityprofile.html" class="nav"> Ideal Job </a> </li>
-            <li> PROJECT IDEA </li>
-                <li> <a href="projectidea.html" class="nav"> Ideal Job </a> </li>
-          </ul>
-        </nav>
-
-      </header>
-
-      <section>
-        <h1> Stephanie Newland </h1>
-          <article>
-            <div class="headerInformation">
-                  <h1> ePortfolio </h1>
-                      <ul class="info">
-                        <li> student #: s3904486 </li>
-                        <li> email: s3904486@student.rmit.edu.au </li>
-                        <li> repository: https://github.com/stephnewland/IIT </li>
-                        <li> website: https://stephnewland.github.io/IIT/ </li>
-                      </ul>
-              </div>
-          </article>
-      </section>
+    <div class="text">
+      <h1> Stephanie Newland </h1>
+        <section>
+          <div class="headerInformation">
+                <h1> ePortfolio </h1>
+                    <ul >
+                      <li class="personalinfo"> student #: s3904486 </li>
+                      <li class="personalinfo"> email: s3904486@student.rmit.edu.au </li>
+                      <li class="personalinfo"> repository: https://github.com/stephnewland/IIT </li>
+                      <li class="personalinfo"> website: https://stephnewland.github.io/IIT/ </li>
+                    </ul>
+        </section>
+      </div>
 
       <section> <!-- ideal job second section -->
+        <hr>
            <h2> Personality Profile </h2>
             <div class="sectionContent">
               <article>
@@ -176,8 +190,10 @@
           </article>
       </div>
 </section>
+</body>
 
 <footer>
-  			<a class="styleone" href="index.html"> Home </a>	
+  			<a class="styleone" href="index.html"> Home </a>
 </footer>
+
 </html>
