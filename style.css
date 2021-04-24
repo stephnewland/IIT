@@ -1,6 +1,6 @@
 
 html, body {
-  background: #E8E8E8; /* background of webpage */
+  background: #f8f8ff; /* background of webpage */
   font-family: 'Candara', helvetica, arial, sans-serif;'Candara', helvetica, arial, sans-serif;
   font-size: 16px;
   color: #999999;
@@ -43,7 +43,7 @@ h1 {
   margin: auto;
   display: block;
   width: 1000px;
-  color: #0033CC;
+  color: #688CFF;
 }
 
 h2 {
@@ -53,7 +53,7 @@ h2 {
   width: 1000px;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  color: #688CFF;
+  color: #91c4f2;
   line-height: 1.4em;
 }
 
@@ -223,7 +223,7 @@ right: 15px;
   margin: 0;
   padding: 0;
   overflow: auto;
-  background-color: #333;
+  background-color: #814da8; /* changes nav bar colour */
 }
 
 #nav li {
@@ -288,7 +288,9 @@ right: 15px;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-#nav .dropdown:hover .dropbtn {background-color: #303030;}
+#nav .dropdown:hover .dropbtn {
+  background-color: #303030;
+}
 
 /*-------------------------------------------------------------- FOOTER LINKS STYLE-----------------------------------------------------------*/
 footer {
@@ -347,7 +349,7 @@ p.footer {
 .styleone:hover {
 	font-style: normal;
 	text-decoration: none;
-	color: #d56dff;
+	color: ##8b77b6;
 	}
 
 .styleone:focus {
